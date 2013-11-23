@@ -1,0 +1,13 @@
+NoseGAE==0.2.0
+coverage==3.5.3
+docutils==0.9.1
+mock==1.0.1
+nose==1.2.1
+sphinx==1.1.3
+flask-testing==0.4
+
+# Fabengine - needed to pack requirements for deployment
+git+https://github.com/xlevus/fabengine.git
+
+-r requirements.txt
+
